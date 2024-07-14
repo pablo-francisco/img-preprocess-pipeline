@@ -7,7 +7,7 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup( name="img-preprocess-pipeline",
-    version="0.0.2",
+    version="0.0.4",
     author="Pablo Francisco",
     author_email="pablo.fco.melo@gmail.com",
     description="Customized library for preprocessing images",
