@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 
-with open("README.md", "r") as f:
+with open("README.md", "r",encoding="utf8") as f:
     page_description = f.read()
 
 with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup( name="img-preprocess-pipeline",
-    version="0.0.4",
+    version="0.0.2",
     author="Pablo Francisco",
     author_email="pablo.fco.melo@gmail.com",
     description="Customized library for preprocessing images",
